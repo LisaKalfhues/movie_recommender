@@ -2,7 +2,7 @@
  for the other modules
  """
 
- import pickle
+import pickle
 
 MOVIES = [
     'Avatar',
@@ -15,6 +15,3 @@ MOVIES = [
     'Beautiful Girls',
     'The Lion King'
 ]
-
-
-model = 
