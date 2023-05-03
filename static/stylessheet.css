@@ -1,0 +1,46 @@
+/* This is a comment */
+/* General syntax of CSS (Cascading Style Sheet) */
+
+/* selector {
+    property:value;
+    another_property:another:value
+} */
+
+h1 {
+    color:forestgreen
+}
+
+p {
+    color:bisque
+}
+
+body {
+    text-align:  center;
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: '../static/popcorn.jpg';
+    background-size: cover;
+}
+
+/* Changing the style by accessing the class attribute of tag . */
+
+.input-placeholder {
+    max-width: 200px;
+    background-color: aqua;
+}
+
+.input-placeholder:hover {
+    background-color: cadetblue;
+    box-shadow: 3px 3px 6px;
+}
+
+/* Changing the style by accessing the id attribute of tag # */
+
+#logo-homepage {
+    border-radius: 400px;
+}
+
+#logo-homepage:hover {
+    background-color: aliceblue;
+    box-shadow: 3px 3px 6px;
+}
